@@ -43,25 +43,19 @@
 # print((respuestas_correctas*4)+(respuestas_incorrectas*-1))
 
 #ejercicio en grupo 
-from numbers import Number
-
-
-costo_total = int(input("valor de la casa: "))
-porcentaje_desposito = costo_total*0,25
-cantidad_ahorrada = int(input("cantidad ahorrada: ")) #0
-g = 4/100
-sueldo_anual = int(input("sueldo anual: "))
-porcentaje_ahorrado = Number(input("que porcentaje de su sueldo quiere ahorar por mes: "))
-sueldo_mensual = sueldo_anual/12
-ahorro_esperado = sueldo_mensual * (porcentaje_ahorrado/100)
-
-cant_meses = (porcentaje_desposito-(g/12))/ahorro_esperado
-print("tomará %d meses en ahorrar el dinero necesario para pagar el depósito" %(cant_meses))
-
-
-
-
-
+# costo_total=input("valor de la casa: ")
+# sueldo_anual=input("sueldo anual: ")
+# porcentaje_ahorrado=input("¿Qué porcentaje de su sueldo quiere ahorrar por mes?: ")
+# sueldo_mensual=float(sueldo_anual)/12
+# porcentaje_deposito=0.25
+# ganancia_anual=0.04
+# cantidad_ahorrada=0
+# ahorro_mensual=float(porcentaje_ahorrado)*sueldo_mensual
+# ganancia_mensual=ahorro_mensual*(ganancia_anual/12)
+# total_mensual=ahorro_mensual+ganancia_mensual
+# deposito=float(costo_total)*porcentaje_deposito
+# meses_para_deposito=round((deposito/total_mensual)+0.5)
+# print("Te tomará "+str(meses_para_deposito)+" meses ahorrar el dinero necesario para pagar el depósito.")
 
 
 

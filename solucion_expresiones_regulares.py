@@ -93,22 +93,17 @@
 # print(numero_especifico(65, "5sdgf"))
 
 #EJERCICIO 6
-'''
-import re
+# import re
 
-lista1 = ["fundamentos", "expresiones", "regulares"]
-frase = "esto es una practica de expresiones regulares"
+# def palabra_encontrada(lista1, string):
+#     lista1 = ["fundamentos", "expresiones", "regulares"]
+#     if re.search (lista1(), string):
+#         return "se encuentra el elemento en la frase"
+#     else:
+#         return "no se encuentra el elemento en la frase"
 
-def palabra_encontrada(lista1, frase):
-    if re.search (lista1, frase):
-        print ("se encuentra el elemento en la frase")
-    else:
-        print ("no se encuentra el elemento en la frase")
-
-print(palabra_encontrada("fundamentos", frase))
-print(palabra_encontrada("expresiones", frase))
-
-'''
+# print(palabra_encontrada("fundamentos", "esto es una actividad de fundamentos de informatica"))
 
 #EJERCICIO 7
+
 
