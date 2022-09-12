@@ -104,8 +104,73 @@
 #     else:
 #         print("la palabra no se encuentra en la lista dada")
 
-#EJERCICIO 7
+#EJERCICIO 8
+# import re
+# numeros = "estamos en el mes 9 del año 2022"
+# x = re.split("\D+", numeros)
+# for a in x:
+#     print(a)
+
+#EJERCICIO 9
+# import re
+# texto = "Hoy estuvimos trabajando con re -regular expression- en python -con VSCode-"
+# x = re.split("Hoy estuvimos trabajando con re (.*)\ en python ", texto)
+# for a in x:
+#     print(a)
+
+#EJERCICIO 10
+# import re
+# texto = "esto es una @ practica de fundamentos de informatica & de la ucema"
+# palabra_a_buscar = re.findall("@(.*)&",texto)
+# print(palabra_a_buscar)
+
+# for i in palabra_a_buscar:
+#     print(texto.index(i))
+
+#EJERCICIO 11
+# import re
+
+# lista = ["Práctica Python", "Práctica C++", "Práctica Fortran"]
+# def letrap (lista):
+#   for elemento in lista:
+#       resultado = re.match("(P\w*)\W(P\w*)", elemento)
+#       if resultado is not None:
+#           print (resultado.group())
+
+# print(letrap(lista))
+
+#EJERCICIO 12
+# import re
+# texto= "esto es: una practica de fundamentos_de_informatica de la ucema"
+# patron1=" "
+# patron2="_"
+# patron3=":"
+# texto1=re.sub(patron1,"|",texto)
+# texto2=re.sub(patron2,"|",texto1)
+# texto3=re.sub(patron3,"|",texto2)
+# print(texto3)
+
+#EJERCICIO 13
+# import re
+# texto = "esto es: una practica de fundamentos_de_informatica de la ucema"
+# x = re.sub("^es","-",texto)
+# print(x)
+
+#EJERCICIO 14
+# import re
+# texto = "esto es una pract   ica de fundamentos de informat ica de la ucema"
+# patron = ("\s")
+# print(re.sub(patron, ";", texto)) 
+
+#EJERCICIO 15
+# import re
+# mail = input("Ingrese su direccion de mail: ")
+# patron = "(\W|^)[\w.\-][^(()<>@,;:%]*((@)((gmail|hotmail|yahoo)\.com){1})(\W|$)"
+
+# if re.search(patron, mail) is not None:
+#     print("La direccion de mail es valida")
+# else:
+#     print("La direccion de mail no es valida")
 
 
-#EJERCICIO 8 
 
