@@ -94,16 +94,18 @@
 
 #EJERCICIO 6
 # import re
+# lista = ["practica", "fundamentos", "informatica", "ucema"]
+# frase = "esto es una practica de fundamentos de informatica"
 
-# def palabra_encontrada(lista1, string):
-#     lista1 = ["fundamentos", "expresiones", "regulares"]
-#     if re.search (lista1(), string):
-#         return "se encuentra el elemento en la frase"
+# for i in lista:
+#     patron = i
+#     if re.search(patron, frase) is not None:
+#         print("la palabra se encuentra en la lista dada")
 #     else:
-#         return "no se encuentra el elemento en la frase"
-
-# print(palabra_encontrada("fundamentos", "esto es una actividad de fundamentos de informatica"))
+#         print("la palabra no se encuentra en la lista dada")
 
 #EJERCICIO 7
 
+
+#EJERCICIO 8 
 
